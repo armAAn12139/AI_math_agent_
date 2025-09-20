@@ -1,0 +1,8 @@
+fastapi==0.95.2
+uvicorn==0.23.1
+pydantic==1.10.9
+requests==2.31.0
+pyyaml==6.0
+weaviate-client==3.5.1      # Or qdrant-client if using Qdrant
+openai==0.27.8             # Optional, if using OpenAI for LLM-based generation
+dspy==0.1.0                # For DSPy (Human-in-the-loop feedback layer)

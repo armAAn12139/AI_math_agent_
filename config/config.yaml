@@ -1,0 +1,18 @@
+# Vector Database (VectorDB) Configuration
+vector_db:
+  host: "localhost"
+  port: 6333
+  index_name: "math_kb_index"
+
+# MCP Server Configuration
+mcp:
+  server_url: "https://your-mcp-server.com/api"
+  api_key: "YOUR_MCP_API_KEY"
+
+# Web Search API Configuration (e.g., Serper / Tavily)
+web_search:
+  api_key: "YOUR_WEB_SEARCH_API_KEY"
+
+# Feedback Agent Configuration (Optional)
+feedback:
+  storage_path: "./feedback_log.txt"
